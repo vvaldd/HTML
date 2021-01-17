@@ -1,0 +1,36 @@
+<style>
+        html{
+            scroll-behavior: smooth;
+        }
+
+        .heading2 {
+        background: bisque;
+        color: black;
+        text-align: center;
+        border: 5px solid darkblue;
+        }
+
+        .justify20 {
+            text-align: justify;
+            font-size: 20px;
+        }
+
+        .justife15 {
+            text-align: justify;
+            font-size: 15px;
+        }
+
+        .padding_left20 {
+            padding-left: 20px;
+        }
+        
+
+        #brd {
+            border: 7px solid beige;
+        }
+
+        .menu li {
+            display: inline-block;
+        }
+
+    </style>
