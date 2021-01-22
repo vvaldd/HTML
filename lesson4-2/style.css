@@ -1,0 +1,24 @@
+* {margin: 0; padding: 0;}
+.bor {border: 1px solid black}
+.body {height: 920px; width: 620px;}
+.d-flex {display: flex;}
+.jc-fl-st {justify-content: flex-start;}
+.jc-c {justify-content: center;}
+.ai-fl-st {align-items: flex-start;}
+.ai-c {align-items: center;}
+.fldir-col {flex-direction: column;}
+.b-gray {background: gray;}
+.b-dg {background: darkgrey;}
+.b-ali {background: aliceblue;}
+.b-snow {background: snow;}
+.b-dimg {background: dimgray;}
+.h-900 {height: 900px;}
+.h-10 {height: 10%;}
+.h-20 {height: 20%;}
+.h-40 {height: 40%;}
+.h-50 {height: 50%;}
+.h-80 {height: 80%;}
+.w-600 {width: 600px;}
+.w-30 {width: 30%;}
+.w-70 {width: 70%;}
+.w-95 {width: 95%;}
