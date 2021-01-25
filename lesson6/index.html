@@ -7,6 +7,7 @@
     <title>Homework</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
     <style>
         * {
             margin: 0;
@@ -14,41 +15,194 @@
         }
 
         .base {
-            height: 900px;
+            height: 3500px;
         }
 
-        .one {
-            height: 300px;
+        .bg-navy10{
+            height: 10%;
             background:navy;
         }
+        
+        .bg-skyblue60 {
+            height: 60%;
+            background: skyblue;
+        }
+
+        .ht150 {
+            width: 150px;
+            height: 200px;     
+        }
+
+        .ht400 {
+            width: 400px;
+            height: 200px;
+        }
+        .bg-purple150 {
+            background: purple;
+            width: 150px;
+            height: 150px;
+            border-radius: 10px;
+        }
+        
+        .bg-purple400 {
+            background: purple;
+            width: 400px;
+            height: 150px;
+            border-radius: 10px;
+        }
+
+        .text {
+            text-align: center;
+        }
+
+        .space {
+            height: 10%;
+        }
+
+        .header {
+            height: 5%;
+        }
+
+
     </style>
 
 </head>
 
 <body>
-    <div class="container-fluid">
+    <div class="container-fluid col-6">
+
+        <nav class="navbar navbar-light bg-light">
+            <a class="navbar-brand">Navbar</a>
+            <form class="form-inline">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </nav>
 
         <div class="base">
             
-                <nav class="navbar navbar-light bg-light">
-                    <a class="navbar-brand">Navbar</a>
-                    <form class="form-inline">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                    </form>
-                </nav>
-            
-
-            <div class="one d-flex flex-column justify-content-center align-content-center">
+            <div class="bg-navy10 d-flex flex-column justify-content-center align-content-center">
                     <div class="text">
-                        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore beatae incidunt
+                        <p class="text-center text-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore beatae incidunt
                             vel laborum obcaecati, eius commodi aliquam tenetur cum pariatur soluta vero voluptatibus delectus a
                             veniam enim! Obcaecati, omnis tenetur.</p>
                     </div>
                     <button type="button" class="btn btn-info w-25 align-self-center">Info</button>
 
             </div>
+            
+            <div class="bg-skyblue60 d-flex flex-column">
 
+                <div class="space"></div>
+
+                <div class="header align-self-center">sdfgsdfg fdg </div>
+
+                <div class="d-flex justify-content-around">
+
+                    <div class="ht150">
+                        <div class="bg-purple150"></div>
+                        <div class="text">
+                            <p>info</p>
+                        </div>
+                    </div>
+
+                    <div class="ht150">
+                        <div class="bg-purple150"></div>
+                        <div class="text">
+                            <p>info</p>
+                        </div>
+                    </div>
+
+                    <div class="ht150">
+                        <div class="bg-purple150"></div>
+                        <div class="text">
+                            <p>info</p>
+                        </div>
+                    </div>
+
+                    <div class="ht150">
+                        <div class="bg-purple150"></div>
+                        <div class="text">
+                            <p>info</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="d-flex justify-content-around">
+
+                    <div class="ht150">
+                        <div class="bg-purple150"></div>
+                        <div class="text">
+                            <p>info</p>
+                        </div>
+                    </div>
+
+                    <div class="ht150">
+                        <div class="bg-purple150"></div>
+                        <div class="text">
+                            <p>info</p>
+                        </div>
+                    </div>
+
+                    <div class="ht150">
+                        <div class="bg-purple150"></div>
+                        <div class="text">
+                            <p>info</p>
+                        </div>
+                    </div>
+
+                    <div class="ht150">
+                        <div class="bg-purple150"></div>
+                        <div class="text">
+                            <p>info</p>
+                        </div>
+                    </div>                
+                </div>
+
+                <div class="space"></div>
+
+                <div class="header align-self-center">dfgdfgfgdfg</div>
+
+                <div class="d-flex justify-content-around">
+
+                    <div class="ht400">
+                        <div class="bg-purple400"></div>
+                        <div class="text">
+                            <p>info</p>
+                        </div>
+                    </div>
+
+                    <div class="h400">
+                        <div class="bg-purple400"></div>
+                        <div class="text">
+                            <p>info</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="d-flex justify-content-around">
+
+                    <div class="ht400">
+                        <div class="bg-purple400"></div>
+                        <div class="text">
+                            <p>info</p>
+                        </div>
+                    </div>
+
+                    <div class="ht400">
+                        <div class="bg-purple400"></div>
+                        <div class="text">
+                            <p>info</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="header align-self-center">afggafgagafg</div>
+
+                
+
+
+            </div>
 
 
 
