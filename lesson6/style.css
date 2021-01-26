@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.base {
+    height: 4000px;
+    position: relative;
+}
+
+.bg-navy10 {
+    height: 10%;
+    background: navy;
+}
+
+.bg-skyblue60 {
+    height: 60%;
+    background: skyblue;
+}
+
+.ht150 {
+    width: 150px;
+    height: 200px;
+}
+
+.ht400 {
+    width: 400px;
+    height: 200px;
+}
+
+.bg-navy {
+    background: navy;
+}
+
+.bg-purple150 {
+    background: purple;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.bg-purple400 {
+    background: purple;
+    width: 400px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.text {
+    text-align: center;
+}
+
+.space {
+    height: 10%;
+}
+
+.header {
+    height: 5%;
+}
+
+.carousel {
+    height: 20%;
+}
+
+.margin {
+    margin: 10px;
+}
+
+.circle {
+    border-radius: 50%;
+    background: purple;
+    width: 150px;
+    height: 150px;
+}
+
+.text2 {
+    width: 60%;
+    height: 150px;
+}
+
+.box {
+    height: 150px;
+    position: absolute;
+    top: 330px;
+}
