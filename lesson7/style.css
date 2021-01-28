@@ -51,6 +51,7 @@
     padding: 95px 100px 150px 100px; 
     display: flex;
     justify-content: space-between;
+    position: relative;
     
 }
 
@@ -170,3 +171,45 @@
     color: #303030;
 
 }
+
+.play_wrap, .play_content, .play {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border:1px solid #ff9638;
+}
+
+.play_wrap {
+    position: absolute;
+    width: 155px;
+    height: 155px;
+    left: 45%;
+    margin-left: -80px;
+    bottom: 15%;
+    
+}
+
+.play_content {
+    width: 95px;
+    height: 95px;
+    animation: shadow 1s infinite;
+}
+
+.play {
+    width: 80px;
+    height: 80px;
+    background-color: #c4c4c4;
+    color: #ffffff;
+    font-size: 25px;
+    
+}
+
+@keyframes shadow {
+    0% {
+      box-shadow: 0 0 0 0 rgba(245, 161, 6, 0.911);
+    }
+    100% {
+      box-shadow: 0 0 0 20px rgba(55, 141, 250, 0);
+    }
+  }
