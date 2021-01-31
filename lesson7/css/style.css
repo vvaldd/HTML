@@ -126,10 +126,10 @@
 @keyframes xxx {
     0% {
         left: -100px;
-        background-color: pink;
+        background-color: rgb(248, 231, 175);
     }
     75% {
-        background-color: purple;
+        background-color: rgb(255, 195, 85);
     }
 
     100% {
@@ -152,10 +152,10 @@
     background-position-x: 0px;
     background-position-y: -150px;
     -webkit-background-clip: text;
-    animation: xxx 20s ease-in-out infinite;
+    animation: xxx2 20s ease-in-out infinite;
 }
 
-@keyframes xxx {
+@keyframes xxx2 {
     0% {
         background-position-x: 0px;
     }
