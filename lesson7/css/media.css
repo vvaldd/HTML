@@ -1,0 +1,54 @@
+@media screen and (max-width: 900px){
+    .header {
+        padding: 0 22px;
+        position: relative;
+
+    }
+
+    .header_logo {
+        width: 201px;
+        
+        
+    }
+
+    .header_logo img {
+        width: 100%;
+    }
+    
+    .header_nav {
+        position: absolute;
+        flex-direction: column;
+        top: 100%;
+        width: 100%;
+        background-color: #3298f2;
+        z-index: 1;
+        height: 97vh;
+        align-items: center;
+        padding-top: 30px;
+        row-gap: 20px;
+        left: -100%;
+        transition: 1000ms;
+    }
+
+    .header_nav a {
+        color: white;
+        font-weight: 500;
+        letter-spacing: 5px;
+    }
+
+    .header_callbutton {
+        display:none;
+    }
+
+    .button_mobile {
+        display: flex;
+    }
+
+    .center_caps, .play_wrap {
+        display: none;
+    }
+
+    .active.header_nav {
+        left: 0;
+    }
+}

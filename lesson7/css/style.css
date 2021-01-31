@@ -228,3 +228,37 @@
       box-shadow: 0 0 0 20px rgba(55, 141, 250, 0);
     }
   }
+
+  .button_mobile {
+      width: 60px;
+      height: 60px;
+      display: none;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+  }
+
+  .button_mobile span {
+    width: 80%;
+    height: 7px;
+    border-radius: 7px;
+    background-color: #3298f2;
+    position: relative;
+  }
+
+  .button_mobile span::before, .button_mobile span::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: #3298f2;
+    display: block;
+    border-radius: 7px;
+    position: absolute;
+  }
+
+  .button_mobile span::before {
+      top: -12px;
+  }
+  .button_mobile span::after {
+      bottom: -12px;
+  }
