@@ -148,7 +148,7 @@
     letter-spacing: -0.02em;
     text-transform: uppercase;
     color: transparent;
-    background: url(img/first_screen_orange.jpg);
+    background: url(../img/first_screen_orange.jpg);
     background-position-x: 0px;
     background-position-y: -150px;
     -webkit-background-clip: text;
