@@ -184,7 +184,6 @@
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #303030;
-
 }
 
 .play_wrap, .play_content, .play {
@@ -202,7 +201,6 @@
     left: 45%;
     margin-left: -80px;
     bottom: 15%;
-    
 }
 
 .play_content {
@@ -217,7 +215,6 @@
     background-color: #c4c4c4;
     color: #ffffff;
     font-size: 25px;
-    
 }
 
 @keyframes shadow {
@@ -227,26 +224,27 @@
     100% {
       box-shadow: 0 0 0 20px rgba(55, 141, 250, 0);
     }
-  }
+}
 
-  .button_mobile {
+.button_mobile {
       width: 60px;
       height: 60px;
       display: none;
       justify-content: center;
       align-items: center;
       cursor: pointer;
-  }
+}
 
-  .button_mobile span {
+.button_mobile span {
     width: 80%;
     height: 7px;
     border-radius: 7px;
     background-color: #3298f2;
     position: relative;
-  }
+    transition: background 500ms;
+}
 
-  .button_mobile span::before, .button_mobile span::after {
+.button_mobile span::before, .button_mobile span::after {
     content: '';
     width: 100%;
     height: 100%;
@@ -254,11 +252,44 @@
     display: block;
     border-radius: 7px;
     position: absolute;
-  }
+    transition-duration: 500ms, 500ms;
+    transition-delay: 300ms, 0ms;
+}
 
-  .button_mobile span::before {
-      top: -12px;
-  }
-  .button_mobile span::after {
-      bottom: -12px;
-  }
+.button_mobile span::before {
+    top: -12px;
+    transition-property: top, transform;  
+}
+
+.button_mobile span::after {
+    bottom: -12px;
+    transition-property: bottom, transform;
+}
+
+.active.button_mobile span {
+    background: none;
+}
+
+.active.button_mobile span::before {
+    top: 0;
+    transform: rotate(45deg);
+    transition-delay: 0ms, 300ms;
+}
+
+.active.button_mobile span::after {
+    bottom: 0;
+    transform: rotate(-45deg);
+    transition-delay: 0ms, 300ms;
+}
+
+.video-box {
+    display: none;
+}
+
+.video {
+    display: none;
+    width: 100%;
+    height: 250px;
+    background-color: #c4c4c4;
+    border-radius: 7px;
+}
