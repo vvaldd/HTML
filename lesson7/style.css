@@ -148,8 +148,23 @@
     letter-spacing: -0.02em;
     text-transform: uppercase;
     color: transparent;
-    background: linear-gradient(90deg, #3298f2, #ff9638);
+    background: url(img/first_screen_orange.jpg);
+    background-position-x: 0px;
+    background-position-y: -150px;
     -webkit-background-clip: text;
+    animation: xxx 20s ease-in-out infinite;
+}
+
+@keyframes xxx {
+    0% {
+        background-position-x: 0px;
+    }
+    50% {
+        background-position-x: 1000px;
+    }
+    100% {
+        background-position-x: 0px;
+    }
 }
 
 .school {
